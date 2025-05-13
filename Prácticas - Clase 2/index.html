@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 2</title>
+    <meta >
+    <title>Mi Portfolio</title>
 </head>
 
 <body>
@@ -12,25 +13,28 @@
         <nav>
             <ul>
                 <li><a href="#">Inicio</a> </li>
-                <li><a href="#">Acerca de Mí</a></li>
-                <li><a href="#">Mis Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#about-me">Acerca de Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <img src="../Prácticas - Clase 1/img/candela.jpg" alt="Imagen de Candela" title="Imagen de Candela"
-                width="300px">
+        <section id="about-me">
+            <img src="../Prácticas - Clase 1/img/candela.jpg" alt="Imagen de Candela" title="Imagen de Candela" loading="lazy" width="300px">
             <article>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia in ratione porro eius dolorum nam
-                    exercitationem repudiandae temporibus natus hic suscipit, quis consequatur doloremque, maiores
-                    provident. Placeat, ea incidunt. Asperiores?</p>
+                <p>¡Hola! Soy Cande, actualmente estudio <em>Ingenieria en Sistemas</em> en la UTN y también tengo formación en
+                    <strong>Front-End</strong>. Me apasiona crear experiencias digitales que sean fáciles de usar y atractivas. Mi
+                    objetivo es combinar lo aprendido en marketing y tecnología para ayudar a las marcas a conectar de manera
+                    efectiva con su audiencia, siempre pensando en <em>mejorar la experiencia del usuario</em>. Estoy en constante
+                    aprendizaje y me encanta afrontar nuevos desafíos. Actualmente estoy aprendiendo <strong>Back-End</strong> para
+                    seguir creciendo en el área.</p>
             </article>
         </section>
 
-        <section>
+        <section id="skills">
             <article>
                 <h2>Mis Habilidades</h2>
                 <ul>
@@ -41,7 +45,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="courses">
             <article>
                 <h2>Cursos y Herramientas Aprendidas</h2>
                 <table border="1">
@@ -65,7 +69,7 @@
             </article>
         </section>
 
-        <section>
+        <section id="contact">
             <article>
                 <h2>Formulario de contacto</h2>
                 <form action="#" method="post">

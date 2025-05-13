@@ -1,0 +1,2 @@
+https://tailwindcss.com/
+https://ui.shadcn.com/
